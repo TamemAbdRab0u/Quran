@@ -1,0 +1,206 @@
+body{
+    background-image: url(../img/moon-light-shine-through-window-into-islamic-mosque-interior.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+}
+.main{
+    background-image: url("images/home.jpg");
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 2px 1px 2px rgb(9, 30, 105);
+    color: #fcfcfc;
+    width: 100%
+}
+div ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-top: -190px; 
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    padding: 15px;
+    color: white
+
+}
+li a:hover{
+    border-bottom: 1px solid rgb(21, 159, 228);
+    border-radius: 2px;
+    color: rgb(247, 249, 251);
+    text-shadow: 2px 1px 2px rgb(105, 173, 224);
+}
+.T{
+    color: #2196F3;
+    text-shadow: 2px 2px 4px #002c84;
+    font-size: 20px;
+    float: left;
+    margin-top: -20px;
+    transition:0.75s;
+}
+.T:hover{
+    color: rgb(207, 226, 245);
+    border-bottom: 1px solid whitesmoke;
+    border-radius: 2px;
+    text-shadow: 1px 1px 4px rgb(238, 238, 238);
+}
+.p1{
+    margin-top: 600px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    color: #0e7392;
+}
+
+
+.surah{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30%;
+}
+.surah div{
+    flex-basis: calc(85% / 3);
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+.one img{
+    border: 2px solid rgb(0, 42, 98);
+    border-radius: 100px;
+    box-shadow: 3px 4px 9px #001432;
+    background-color: #000d21;
+    transition:0.5s;
+}
+.one img:hover{
+    border: 2px solid rgb(3, 6, 36);
+    box-shadow: 1px 4px 9px #7187b3;
+    width: 300px;
+}
+
+.two    img,
+.three  img,
+.four   img,
+.five   img,
+.six    img,
+.seven  img,
+.eight  img,
+.nine   img,
+.ten    img,
+.eleven img,
+.twelve img,
+.thirteen img,
+.fourteen img{
+    margin-right: 18px;
+    border: 2px solid rgb(0, 42, 98);
+    border-radius: 100px;
+    box-shadow: 3px 4px 9px #001432;
+    background-color: #000d21;
+    transition:0.5s;
+}
+.two    img:hover,
+.three  img:hover,
+.four   img:hover,
+.five   img:hover,
+.six    img:hover,
+.seven  img:hover,
+.eight  img:hover,
+.nine   img:hover,
+.ten    img:hover,
+.eleven img:hover,
+.twelve img:hover,
+.thirteen img:hover,
+.fourteen img:hover{
+    
+    border: 2px solid rgb(3, 6, 36);
+    box-shadow: 1px 4px 9px #7187b3;
+    width: 300px;
+    transform: scale(1.1);
+}
+
+
+
+
+
+.title{
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    color: rgb(4, 20,168 );
+    text-shadow: 1px 1px 2px whitesmoke;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    transition: 0.75s;
+}
+.title:hover{
+    color: aqua;
+    text-shadow: 1px 1px 10px rgb(3, 199, 249);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: aliceblue;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 20%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7 ease;
+}
+.card :hover{
+transform: scale(1.1);
+}
+.icon{
+    color: blue;
+    font-size: 4.5em;
+    text-align: center;
+}
+.Information{
+    text-align: center;
+}
+.Information h3{
+    color: blue;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+footer{
+    background-color: #000d21;
+    color: #fcfcfc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.social-icons a {
+    color: rgb(240, 228, 228);
+    font-size: 10px;
+    padding-right: 30px;
+}
+.footer-p{
+font-size: 10px;
+font-weight: 600;
+}
+.footer-p span{
+    color: #2196F3;
+}
+
+
